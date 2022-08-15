@@ -6,7 +6,7 @@ namespace Find_Maximum_Problem_Using_Genrick
 {
     class Maximum_Number
     {
-        public void Find_Max_Num(int First, int Secound, int Third)
+        public void Find_Max_Num(string First, string Secound, string Third)
         {
             if (First.CompareTo(Secound) > 0 && First.CompareTo(Third) > 0 || First.CompareTo(Secound) >= 0 && First.CompareTo(Third) > 0 || First.CompareTo(Secound) > 0 && First.CompareTo(Third) >= 0)
             {
